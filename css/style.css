@@ -10,14 +10,14 @@ h1{
 }
 
 h2{
-    font-size: 32px !important;
-    text-shadow: 2px 4px #808080 !important;
+    font-size: 32px;
+    text-shadow: 2px 4px #808080;
 }
 
 p{ 
-    font-size:24px;
-    padding-bottom:15px;
-    padding-left:15px;
+    font-size:24px !important;
+    padding-bottom:15px !important;
+    padding-left:15px !important;
 }
 
 img{ 
@@ -60,9 +60,9 @@ div{
     text-shadow: 2px 4px #c7e2c7;
 }
 
-.yellow h2{ 
-    font-size: 32px;
-    text-shadow: 2px 4px #808080;
+.yellow p{ 
+    color: #000000;
+    text-shadow: none;
 }
 .green{
     background: #008500;
