@@ -57,12 +57,11 @@ div{
     margin-left: 50px;
     border-width: 0px 0px 3px 10px;
     color: #000000;
-    text-shadow: 2px 4px #c7e2c7;
+    
 }
 
-.yellow p{ 
-    color: #000000;
-    text-shadow: none;
+.yellow h2{ 
+    text-shadow: 2px 4px #c7e2c7;
 }
 .green{
     background: #008500;
