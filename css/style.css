@@ -10,8 +10,8 @@ h1{
 }
 
 h2{
-    font-size: 32px;
-    text-shadow: 2px 4px #808080;
+    font-size: 32px !important;
+    text-shadow: 2px 4px #808080 !important;
 }
 
 p{ 
@@ -60,8 +60,12 @@ div{
     text-shadow: 2px 4px #c7e2c7;
 }
 
+.yellow h2{ 
+    font-size: 32px;
+    text-shadow: 2px 4px #808080;
+}
 .green{
-    background: #00D800;
+    background: #008500;
     text-align: left;
     margin-right:50px;
     border-width: 0px 10px 3px 0px;
@@ -73,10 +77,10 @@ span{
 }
 
 footer{ 
-    background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000)
+    background: linear-gradient(90deg, #000000, #0000ff 25%, #0066ff 70%, #000000)
 }
 
-#footer.p{ 
+footer p{ 
     text-align: center;
     font-size: 20px;
     padding: 10px 10px 10px;
